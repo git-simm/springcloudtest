@@ -1,0 +1,500 @@
+2018-06-26 09:53:07,660 INFO (AbstractTestContextBootstrapper.java:319)- Neither @ContextConfiguration nor @ContextHierarchy found for test class [simm.cloud.attence.AttenceApplicationTests], using SpringBootContextLoader
+2018-06-26 09:53:07,677 INFO (AbstractContextLoader.java:264)- Could not detect default resource locations for test class [simm.cloud.attence.AttenceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-06-26 09:53:07,679 INFO (AnnotationConfigContextLoaderUtils.java:81)- Could not detect default configuration classes for test class [simm.cloud.attence.AttenceApplicationTests]: AttenceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-06-26 09:53:07,986 INFO (SpringBootTestContextBootstrapper.java:206)- Found @SpringBootConfiguration simm.cloud.attence.AttenceApplication for test class simm.cloud.attence.AttenceApplicationTests
+2018-06-26 09:53:08,000 INFO (AbstractTestContextBootstrapper.java:260)- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-06-26 09:53:08,060 INFO (AbstractTestContextBootstrapper.java:187)- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@10e41621, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@353d0772, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2667f029, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67a20f67, org.springframework.test.context.transaction.TransactionalTestExecutionListener@57c758ac, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a9cd3b1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@13e39c73, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64cd705f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@9225652, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@654f0d9c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a400542, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6580cfdd]
+2018-06-26 09:53:08,075 INFO (AbstractTestContextBootstrapper.java:319)- Neither @ContextConfiguration nor @ContextHierarchy found for test class [simm.cloud.attence.AttenceApplicationTests], using SpringBootContextLoader
+2018-06-26 09:53:08,078 INFO (AbstractContextLoader.java:264)- Could not detect default resource locations for test class [simm.cloud.attence.AttenceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-06-26 09:53:08,078 INFO (AnnotationConfigContextLoaderUtils.java:81)- Could not detect default configuration classes for test class [simm.cloud.attence.AttenceApplicationTests]: AttenceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-06-26 09:53:08,090 INFO (SpringBootTestContextBootstrapper.java:206)- Found @SpringBootConfiguration simm.cloud.attence.AttenceApplication for test class simm.cloud.attence.AttenceApplicationTests
+2018-06-26 09:53:08,104 INFO (AbstractTestContextBootstrapper.java:260)- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-06-26 09:53:08,119 INFO (AbstractTestContextBootstrapper.java:187)- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@661972b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5af3afd9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@323b36e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44ebcd03, org.springframework.test.context.transaction.TransactionalTestExecutionListener@694abbdc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2e005c4b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4567f35d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ffead27, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6356695f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fa268de]
+2018-06-26 09:53:09,026 INFO (StartupInfoLogger.java:48)- Starting AttenceApplicationTests on gfl0492 with PID 11168 (started by manman.si in D:\mywork\01-test\springcloudtest\attence)
+2018-06-26 09:53:09,027 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-06-26 09:53:09,027 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-06-26 09:53:09,109 INFO (AbstractApplicationContext.java:583)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@389b0789: startup date [Tue Jun 26 09:53:09 CST 2018]; root of context hierarchy
+2018-06-26 09:53:09,732 INFO (Version.java:30)- HV000001: Hibernate Validator 5.3.6.Final
+2018-06-26 09:53:10,667 INFO (RepositoryConfigurationDelegate.java:165)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-26 09:53:11,270 ERROR (SpringApplication.java:771)- Application startup failed
+java.lang.NoClassDefFoundError: Lsimm/cloud/attence/service/HelloService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:715)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:687)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:673)
+	at org.springframework.boot.test.mock.mockito.DefinitionsParser.parse(DefinitionsParser.java:63)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:142)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:134)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:171)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: simm.cloud.attence.service.HelloService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 common frames omitted
+2018-06-26 09:53:11,275 INFO (AbstractApplicationContext.java:984)- Closing org.springframework.web.context.support.GenericWebApplicationContext@389b0789: startup date [Tue Jun 26 09:53:09 CST 2018]; root of context hierarchy
+2018-06-26 09:53:11,279 ERROR (TestContextManager.java:234)- Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@661972b0] to prepare test instance [simm.cloud.attence.AttenceApplicationTests@502f8b57]
+java.lang.NoClassDefFoundError: Lsimm/cloud/attence/service/HelloService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:715)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:687)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:673)
+	at org.springframework.boot.test.mock.mockito.DefinitionsParser.parse(DefinitionsParser.java:63)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:142)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:134)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:171)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: simm.cloud.attence.service.HelloService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 common frames omitted
+2018-06-26 09:56:08,189 INFO (AbstractTestContextBootstrapper.java:319)- Neither @ContextConfiguration nor @ContextHierarchy found for test class [simm.cloud.attence.AttenceApplicationTests], using SpringBootContextLoader
+2018-06-26 09:56:08,201 INFO (AbstractContextLoader.java:264)- Could not detect default resource locations for test class [simm.cloud.attence.AttenceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-06-26 09:56:08,203 INFO (AnnotationConfigContextLoaderUtils.java:81)- Could not detect default configuration classes for test class [simm.cloud.attence.AttenceApplicationTests]: AttenceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-06-26 09:56:08,848 INFO (SpringBootTestContextBootstrapper.java:206)- Found @SpringBootConfiguration simm.cloud.attence.AttenceApplication for test class simm.cloud.attence.AttenceApplicationTests
+2018-06-26 09:56:08,881 INFO (AbstractTestContextBootstrapper.java:260)- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-06-26 09:56:08,946 INFO (AbstractTestContextBootstrapper.java:187)- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5bd03f44, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29626d54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5a63f509, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e4784bc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@34b7ac2f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@e056f20, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b0b0854, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@19bb07ed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@10e41621, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@353d0772, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2667f029, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@67a20f67]
+2018-06-26 09:56:08,962 INFO (AbstractTestContextBootstrapper.java:319)- Neither @ContextConfiguration nor @ContextHierarchy found for test class [simm.cloud.attence.AttenceApplicationTests], using SpringBootContextLoader
+2018-06-26 09:56:08,964 INFO (AbstractContextLoader.java:264)- Could not detect default resource locations for test class [simm.cloud.attence.AttenceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-06-26 09:56:08,965 INFO (AnnotationConfigContextLoaderUtils.java:81)- Could not detect default configuration classes for test class [simm.cloud.attence.AttenceApplicationTests]: AttenceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-06-26 09:56:08,986 INFO (SpringBootTestContextBootstrapper.java:206)- Found @SpringBootConfiguration simm.cloud.attence.AttenceApplication for test class simm.cloud.attence.AttenceApplicationTests
+2018-06-26 09:56:09,017 INFO (AbstractTestContextBootstrapper.java:260)- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-06-26 09:56:09,025 INFO (AbstractTestContextBootstrapper.java:187)- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71809907, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6aba2b86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@158da8e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52303, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@47af7f3d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb9a3ff, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@661972b0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5af3afd9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@323b36e0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44ebcd03]
+2018-06-26 09:56:10,008 INFO (StartupInfoLogger.java:48)- Starting AttenceApplicationTests on gfl0492 with PID 11020 (started by manman.si in D:\mywork\01-test\springcloudtest\attence)
+2018-06-26 09:56:10,009 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-06-26 09:56:10,010 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-06-26 09:56:10,078 INFO (AbstractApplicationContext.java:583)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1ebea008: startup date [Tue Jun 26 09:56:10 CST 2018]; root of context hierarchy
+2018-06-26 09:56:10,725 INFO (Version.java:30)- HV000001: Hibernate Validator 5.3.6.Final
+2018-06-26 09:56:11,582 INFO (RepositoryConfigurationDelegate.java:165)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-26 09:56:12,217 ERROR (SpringApplication.java:771)- Application startup failed
+java.lang.NoClassDefFoundError: Lsimm/cloud/attence/service/HelloService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:715)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:687)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:673)
+	at org.springframework.boot.test.mock.mockito.DefinitionsParser.parse(DefinitionsParser.java:63)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:142)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:134)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:171)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: simm.cloud.attence.service.HelloService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 common frames omitted
+2018-06-26 09:56:12,221 INFO (AbstractApplicationContext.java:984)- Closing org.springframework.web.context.support.GenericWebApplicationContext@1ebea008: startup date [Tue Jun 26 09:56:10 CST 2018]; root of context hierarchy
+2018-06-26 09:56:12,226 ERROR (TestContextManager.java:234)- Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@71809907] to prepare test instance [simm.cloud.attence.AttenceApplicationTests@3cc20577]
+java.lang.NoClassDefFoundError: Lsimm/cloud/attence/service/HelloService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:715)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:687)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:673)
+	at org.springframework.boot.test.mock.mockito.DefinitionsParser.parse(DefinitionsParser.java:63)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:142)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:134)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:171)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: simm.cloud.attence.service.HelloService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 common frames omitted
+2018-06-26 09:57:48,140 INFO (AbstractTestContextBootstrapper.java:319)- Neither @ContextConfiguration nor @ContextHierarchy found for test class [simm.cloud.attence.AttenceApplicationTests], using SpringBootContextLoader
+2018-06-26 09:57:48,158 INFO (AbstractContextLoader.java:264)- Could not detect default resource locations for test class [simm.cloud.attence.AttenceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-06-26 09:57:48,160 INFO (AnnotationConfigContextLoaderUtils.java:81)- Could not detect default configuration classes for test class [simm.cloud.attence.AttenceApplicationTests]: AttenceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-06-26 09:57:48,497 INFO (SpringBootTestContextBootstrapper.java:206)- Found @SpringBootConfiguration simm.cloud.attence.AttenceApplication for test class simm.cloud.attence.AttenceApplicationTests
+2018-06-26 09:57:48,521 INFO (AbstractTestContextBootstrapper.java:260)- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-06-26 09:57:48,564 INFO (AbstractTestContextBootstrapper.java:187)- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5bd03f44, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29626d54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5a63f509, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e4784bc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@34b7ac2f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@e056f20, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b0b0854, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@19bb07ed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@10e41621, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@353d0772, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2667f029, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@67a20f67]
+2018-06-26 09:57:48,578 INFO (AbstractTestContextBootstrapper.java:319)- Neither @ContextConfiguration nor @ContextHierarchy found for test class [simm.cloud.attence.AttenceApplicationTests], using SpringBootContextLoader
+2018-06-26 09:57:48,580 INFO (AbstractContextLoader.java:264)- Could not detect default resource locations for test class [simm.cloud.attence.AttenceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-06-26 09:57:48,582 INFO (AnnotationConfigContextLoaderUtils.java:81)- Could not detect default configuration classes for test class [simm.cloud.attence.AttenceApplicationTests]: AttenceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-06-26 09:57:48,599 INFO (SpringBootTestContextBootstrapper.java:206)- Found @SpringBootConfiguration simm.cloud.attence.AttenceApplication for test class simm.cloud.attence.AttenceApplicationTests
+2018-06-26 09:57:48,611 INFO (AbstractTestContextBootstrapper.java:260)- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-06-26 09:57:48,619 INFO (AbstractTestContextBootstrapper.java:187)- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71809907, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6aba2b86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@158da8e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52303, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@47af7f3d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb9a3ff, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@661972b0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5af3afd9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@323b36e0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44ebcd03]
+2018-06-26 09:57:49,787 INFO (StartupInfoLogger.java:48)- Starting AttenceApplicationTests on gfl0492 with PID 10904 (started by manman.si in D:\mywork\01-test\springcloudtest\attence)
+2018-06-26 09:57:49,789 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-06-26 09:57:49,789 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-06-26 09:57:49,884 INFO (AbstractApplicationContext.java:583)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1ebea008: startup date [Tue Jun 26 09:57:49 CST 2018]; root of context hierarchy
+2018-06-26 09:57:50,807 INFO (Version.java:30)- HV000001: Hibernate Validator 5.3.6.Final
+2018-06-26 09:57:51,576 INFO (RepositoryConfigurationDelegate.java:165)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-26 09:57:52,670 ERROR (SpringApplication.java:771)- Application startup failed
+java.lang.NoClassDefFoundError: Lsimm/cloud/attence/service/HelloService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:715)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:687)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:673)
+	at org.springframework.boot.test.mock.mockito.DefinitionsParser.parse(DefinitionsParser.java:63)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:142)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:134)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:171)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: simm.cloud.attence.service.HelloService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 common frames omitted
+2018-06-26 09:57:52,674 INFO (AbstractApplicationContext.java:984)- Closing org.springframework.web.context.support.GenericWebApplicationContext@1ebea008: startup date [Tue Jun 26 09:57:49 CST 2018]; root of context hierarchy
+2018-06-26 09:57:52,678 ERROR (TestContextManager.java:234)- Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@71809907] to prepare test instance [simm.cloud.attence.AttenceApplicationTests@3e598df9]
+java.lang.NoClassDefFoundError: Lsimm/cloud/attence/service/HelloService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:715)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:687)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:673)
+	at org.springframework.boot.test.mock.mockito.DefinitionsParser.parse(DefinitionsParser.java:63)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:142)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:134)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:171)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: simm.cloud.attence.service.HelloService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 common frames omitted
+2018-06-26 10:07:49,606 INFO (AbstractTestContextBootstrapper.java:319)- Neither @ContextConfiguration nor @ContextHierarchy found for test class [simm.cloud.attence.AttenceApplicationTests], using SpringBootContextLoader
+2018-06-26 10:07:49,619 INFO (AbstractContextLoader.java:264)- Could not detect default resource locations for test class [simm.cloud.attence.AttenceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-06-26 10:07:49,621 INFO (AnnotationConfigContextLoaderUtils.java:81)- Could not detect default configuration classes for test class [simm.cloud.attence.AttenceApplicationTests]: AttenceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-06-26 10:07:50,033 INFO (SpringBootTestContextBootstrapper.java:206)- Found @SpringBootConfiguration simm.cloud.attence.AttenceApplication for test class simm.cloud.attence.AttenceApplicationTests
+2018-06-26 10:07:50,053 INFO (AbstractTestContextBootstrapper.java:260)- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-06-26 10:07:50,100 INFO (AbstractTestContextBootstrapper.java:187)- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5bd03f44, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29626d54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5a63f509, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e4784bc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@34b7ac2f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@e056f20, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b0b0854, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@19bb07ed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@10e41621, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@353d0772, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2667f029, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@67a20f67]
+2018-06-26 10:07:50,110 INFO (AbstractTestContextBootstrapper.java:319)- Neither @ContextConfiguration nor @ContextHierarchy found for test class [simm.cloud.attence.AttenceApplicationTests], using SpringBootContextLoader
+2018-06-26 10:07:50,112 INFO (AbstractContextLoader.java:264)- Could not detect default resource locations for test class [simm.cloud.attence.AttenceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-06-26 10:07:50,113 INFO (AnnotationConfigContextLoaderUtils.java:81)- Could not detect default configuration classes for test class [simm.cloud.attence.AttenceApplicationTests]: AttenceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-06-26 10:07:50,126 INFO (SpringBootTestContextBootstrapper.java:206)- Found @SpringBootConfiguration simm.cloud.attence.AttenceApplication for test class simm.cloud.attence.AttenceApplicationTests
+2018-06-26 10:07:50,163 INFO (AbstractTestContextBootstrapper.java:260)- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-06-26 10:07:50,173 INFO (AbstractTestContextBootstrapper.java:187)- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71809907, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6aba2b86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@158da8e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74e52303, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@47af7f3d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb9a3ff, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@661972b0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5af3afd9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@323b36e0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44ebcd03]
+2018-06-26 10:07:51,065 INFO (StartupInfoLogger.java:48)- Starting AttenceApplicationTests on gfl0492 with PID 6872 (started by manman.si in D:\mywork\01-test\springcloudtest\attence)
+2018-06-26 10:07:51,066 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-06-26 10:07:51,068 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-06-26 10:07:51,138 INFO (AbstractApplicationContext.java:583)- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1ebea008: startup date [Tue Jun 26 10:07:51 CST 2018]; root of context hierarchy
+2018-06-26 10:07:51,855 INFO (Version.java:30)- HV000001: Hibernate Validator 5.3.6.Final
+2018-06-26 10:07:52,603 INFO (RepositoryConfigurationDelegate.java:165)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-26 10:07:53,171 ERROR (SpringApplication.java:771)- Application startup failed
+java.lang.NoClassDefFoundError: Lsimm/cloud/attence/service/HelloService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:715)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:687)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:673)
+	at org.springframework.boot.test.mock.mockito.DefinitionsParser.parse(DefinitionsParser.java:63)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:142)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:134)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:171)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: simm.cloud.attence.service.HelloService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 common frames omitted
+2018-06-26 10:07:53,175 INFO (AbstractApplicationContext.java:984)- Closing org.springframework.web.context.support.GenericWebApplicationContext@1ebea008: startup date [Tue Jun 26 10:07:51 CST 2018]; root of context hierarchy
+2018-06-26 10:07:53,179 ERROR (TestContextManager.java:234)- Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@71809907] to prepare test instance [simm.cloud.attence.AttenceApplicationTests@3cc20577]
+java.lang.NoClassDefFoundError: Lsimm/cloud/attence/service/HelloService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:715)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:687)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:673)
+	at org.springframework.boot.test.mock.mockito.DefinitionsParser.parse(DefinitionsParser.java:63)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:142)
+	at org.springframework.boot.test.mock.mockito.MockitoPostProcessor.postProcessBeanFactory(MockitoPostProcessor.java:134)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:171)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: simm.cloud.attence.service.HelloService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 common frames omitted
